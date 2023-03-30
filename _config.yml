@@ -1,0 +1,17 @@
+# Site settings
+title: Gyg3s
+description: 1337
+
+# User settings
+username: Gyg3s
+user_description: Web Development & Web Application Security & Vulnerability Research & Threat Intelligence
+user_title: Developer & Bug Hunter
+email: 1717[at]duck[dot]com
+twitter_username: elonmusk
+github_username:  0x1717
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
